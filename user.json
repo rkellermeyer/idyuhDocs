@@ -1,0 +1,30 @@
+{
+  "data": {
+    "firstName":  "Richard",
+    "lastName":   "Kellermeyer",
+    "fullName":   "Richard Kellermeyer",
+    "email":      "test@email.com"
+    "address1": "123 Somewhere St.",
+    "address2": null,
+    "city": "Beverly Hills",
+    "state": "CA",
+    "zipcode": "90210",
+    "roles": [
+      "superAdmin",
+      "inventor",
+      "investor",
+      "mentor",
+      "groupLead",
+      "developer",
+      "architect"
+    ],
+    "ratings": [
+      {"inventor": 10},
+      {"investor": 8},
+      {"mentor": 10},
+      {"groupLeader": 9},
+      {"developer": 10},
+      {"architect": 10}
+    ]
+  }
+}
