@@ -3,8 +3,7 @@
 #####Description: User Experience story archive.
 #####Version: 1.0
 
-#Landing Page
-
+#Header
 - As a visitor that lands on the homepage
 - In order to be familiarized with the branding
 - I should see the Idyuh Logo in the upper left of the site header
@@ -32,6 +31,7 @@
 - I should see a login link to the right of the Signup Link
 - And I should be able to display a login form when I click that link.
 
+#Landing Page
 ###Example A
 - As a visitor that lands on the homepage
 - In order to familiarized with the features and projects on Idyuh
@@ -56,4 +56,43 @@
 - And these panels should show a slideshow of Invention, Investment, Mentoring and About Us images
 - And when clicked, these panels should take the user to the signup/login page.
 
-#Signup/Login Page
+#Signup Page
+- As a visitor wishing to sign up for Idyuh
+- In order to create a new account
+- I should see the minimum amount of required info fields to create an account
+- And I should be required to fill in First Name, Last Name, Email, Password and Confirm Password
+- And the Email field should asynchronously check the validity and uniqueness of the email address provided
+- And the password and confirm password fields should match
+- And the password field should show the strength of the password provided.
+<br><br>
+
+- As a user who has finished providing the minimal amount of info necessary to create a new account on Idyuh
+- In order to move to Step 2 of the sign up process
+- I should be required to click on the "Next" button at the bottom of the form
+- And I should be directed to the Step 2 sign up screen
+<br><br>
+
+- As a user who has completed Step 1 of the sign up process
+- In order to keep moving through the process
+- I should be presented with additional information fields in Step 2
+- And these fields should be: Address 1, Address 2, City, State, Zipcode, Country (optional), Birth Date, Bio (optional), Profile Image (optional)
+<br><br>
+
+- As a user who has finished providing the additional info necessary for creating a new account on Idyuh
+- In order to move to Step 3 of the sign up process
+- I should be required to click on the "Next" button at the bottom of the form
+- And I should be directed to the Step 3 sign up screen
+<br><br>
+
+- As a user who has completed Step 2 of the sign up process
+- In order to keep moving through the process
+- I should be presented with five clickable images representing the various roles offered on Idyuh
+- And these images should represent Inventors, Investors, Mentors, Attorneys and Service Providers (Developers, Manufacturers, Marketers, etc)
+<br><br>
+
+- As a user that would like to understand which account role to choose
+- When I click on an image
+- In order to be informed of the role capabilities
+- I should be presented with a modal window that shows a diagram of the process flow for that particular role
+- And I should be able to click or press the escape key to close the modal
+<br><br>
