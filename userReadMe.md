@@ -3,9 +3,10 @@
   - Description: User resource specification.
   - Version: 1.0
 ##Attributes:
+  - id (PK)
   - First Name
   - Last Name
-  - Alias
+  - Alias (Username)
   - Email
   - Address1
   - Address2
@@ -14,9 +15,9 @@
   - Zipcode
   - password
 ##Relationships
-  - Groups
-  - Journal Entries
-  - Notes
-  - Profile
-  - Projects
-  - Users
+  - Groups (XTable GroupsUsers -> group_id, user_id)
+  - Journal Entries (FK)
+  - Notes (FK)
+  - Profile (XTable ProfilesUsers -> profile_id, user_id)
+  - Projects (FK)
+  - Users (XTable UserConnections -> a_id, b_id)

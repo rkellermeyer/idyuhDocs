@@ -74,8 +74,16 @@
 
 - As a user who has completed Step 1 of the sign up process
 - In order to keep moving through the process
-- I should be presented with additional information fields in Step 2
-- And these fields should be: Address 1, Address 2, City, State, Zipcode, Country (optional), Birth Date, Bio (optional), Profile Image (optional)
+- I should be presented with five clickable images representing the various roles offered on Idyuh
+- And these images should represent Inventors, Investors, Mentors, Attorneys and Service Providers (Developers, Manufacturers, Marketers, etc)
+<br><br>
+
+- As a user that would like to understand which account role to choose
+- When I click on an image
+- In order to be informed of the role capabilities
+- I should be presented with a modal window that shows a diagram of the process flow for that particular role
+- And I should be able to click or press the escape key to close the modal
+- And I should be able to immediately choose the role for my account by clicking on a select button
 <br><br>
 
 - As a user who has finished providing the additional info necessary for creating a new account on Idyuh
@@ -86,13 +94,7 @@
 
 - As a user who has completed Step 2 of the sign up process
 - In order to keep moving through the process
-- I should be presented with five clickable images representing the various roles offered on Idyuh
-- And these images should represent Inventors, Investors, Mentors, Attorneys and Service Providers (Developers, Manufacturers, Marketers, etc)
-<br><br>
-
-- As a user that would like to understand which account role to choose
-- When I click on an image
-- In order to be informed of the role capabilities
-- I should be presented with a modal window that shows a diagram of the process flow for that particular role
-- And I should be able to click or press the escape key to close the modal
+- I should be presented with additional information fields in Step 2
+- And these fields should be: Address 1, Address 2, City, State, Zipcode, Country (optional), Birth Date, Bio (optional), Profile Image (optional)
+- And there will be other dynamically generated fields that are role specific.
 <br><br>

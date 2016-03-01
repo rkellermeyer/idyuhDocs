@@ -36,10 +36,10 @@ with the same level of security regardless of project creator paying status.
 
 As an inventor or hobbyist, I may create a project to manage myself. There is a
 minimal set of requirements that must be met in order for my project to be
-hosted by the Idyuh application, (See: Project Creation Requirements) and there
+hosted by the Idyuh application, (See: Project Creation Requirements (WIP)) and there
 is a project acceptance algorithm that determines if my project is eligible to
 become a forward-facing project to the other roles present on the service
-(See: Project Vetting Process).
+(See: Project Vetting Process (WIP)).
 
 As a specialist, firm or attorney, I may choose to advertise my expertise fee,
 offer pro bono services, or negotiate ownership in a project in exchange for
@@ -51,7 +51,7 @@ Despite the account/role(s) designation, as a member, there are certain attribut
 that need to be collected by the service to be used for identification and service
 integrity purposes.
 
-All users will be required to provide:
+All users will be required to provide as a minimum:
   1. A valid First Name, Last Name, Email and Username.
   2. A valid address for their account which includes at a minimum:
     a. One valid street address.
@@ -59,4 +59,4 @@ All users will be required to provide:
     c. One valid state.
     d. One valid zipcode.
   3. A password for the account.
-  4.
+  4. 

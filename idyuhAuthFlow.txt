@@ -1,0 +1,32 @@
+1. Login/Signup Client Call to Auth Service
+  - Login/Signup creates GUID to send to Auth
+  - Auth accepts GUID
+  - Auth creates UUID to send to API with GUID
+
+2. Auth Call to API Token Generator
+  - API accepts UUID & GUID
+  - API creates Access Token hashed with UUID to send back to Auth
+  - API stores tuple { UUID, GUID, Un-hashed token }
+
+3. API response to AUTH
+  - API sends Access Token to AUTH
+  - AUTH digests Token with UUID
+  - AUTH hashes Token with GUID
+  - AUTH logs UUID, GUID, Digested Token
+
+4. AUTH response to Login/Signup
+  - AUTH sends new hashed token to Login/Signup
+
+5. Login/Signup Redirect to UI
+  - Login/Signup redirects to UI and passes GUID & token
+
+6. UI auth request to API
+  - UI sends token to API
+  - API checks token against GUID
+
+7. API to UI response
+  - API issues new access token or
+  - API locks UI out
+
+8. UI <-> API
+  - UI is allowed to communicate with API with new access token and GUID
